@@ -2,12 +2,17 @@ import datetime
 
 
 def years(age):
-    return
+    date = datetime.datetime.now()
+    date.year
+    birth = date.year - age + 100
+    print("You will be a hundred years old in {0}, if you live long enough" .format(birth))
 
+    return birth
 
 def main():
-    return
-
+    name = input("What's your name?: ")
+    age = int(input("How old are you?: "))
+    years(age)
 
 if __name__ == '__main__':
     main()
